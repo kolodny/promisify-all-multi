@@ -1,0 +1,19 @@
+{
+  "name": "promisify-all-multi",
+  "version": "1.0.0",
+  "description": "Like bluebird's promisifyAll with a multiArgs always on object.someMethodMulti",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha",
+    "test-cov": "nyc npm test && nyc report --reporter=lcov",
+    "test-travis": "nyc npm test && nyc report --reporter=lcov"
+  },
+  "keywords": [],
+  "author": "Moshe Kolodny",
+  "license": "MIT",
+  "devDependencies": {
+    "coveralls": "^3.0.0",
+    "mocha": "^5.0.4",
+    "nyc": "^11.6.0"
+  }
+}
